@@ -1,0 +1,26 @@
+
+<html>
+	<head>
+	<style>
+		body
+		{
+			background-color:#ede;
+		}
+		h3
+		{
+			color:pink;
+		}
+		ol li
+		{
+			color:blue;
+		}
+	</style>
+	</head>
+	<body>
+		<h3> Contents</h3>
+		<ol>
+<a href="list.html" target="right">list</a><br>
+<a href="tt.html" target="right">time tables</a><br>
+<a href="regform.html" target="right">course registration</a>
+</ol>
+</html>

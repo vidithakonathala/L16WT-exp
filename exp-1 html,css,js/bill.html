@@ -1,0 +1,52 @@
+<html>
+<head>
+	<title>Restaurant Bill Generator</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="container">
+		<h1>Restaurant Bill Generator</h1>
+		<form id="order-form">
+			<label for="appetizers">Appetizers:</label>
+			<select id="appetizers" name="appetizers">
+				<option value="0">None</option>
+				<option value="4.99">veg pakora</option>
+				<option value="5.99">samosa</option>
+				<option value="6.99">Garlic Bread</option>
+			</select>
+
+			<label for="entrees">chinese:</label>
+			<select id="entrees" name="entrees">
+				<option value="0">None</option>
+				<option value="12.99">noodle</option>
+				<option value="14.99">Corn soup</option>
+				<option value="16.99">sushi</option>
+			</select>
+
+			<label for="drinks">Drinks:</label>
+			<select id="drinks" name="drinks">
+				<option value="0">None</option>
+				<option value="2.99">deep blue sea</option>
+				<option value="4.99">classic mint</option>
+				<option value="7.99">orange shake</option>
+			</select>
+
+			<label for="desserts">Desserts:</label>
+			<select id="desserts" name="desserts">
+				<option value="0">None</option>
+				<option value="3.99">Cheesecake</option>
+				<option value="4.99">oreo shake</option>
+				<option value="5.99">Chocolate Cake</option>
+			</select>
+
+			<button type="submit" id="submit-btn">Calculate Total</button>
+		</form>
+
+		<div id="total-container">
+			<p>Your total is: <span id="total"></span></p>
+		</div>
+	</div>
+
+	<script src="js1.js"></script>
+</body>
+</html>
